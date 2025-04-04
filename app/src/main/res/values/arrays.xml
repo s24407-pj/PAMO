@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="activity_levels">
+        <item>Brak aktywności</item>
+        <item>Lekka aktywność</item>
+        <item>Umiarkowana aktywność</item>
+        <item>Wysoka aktywność</item>
+        <item>Bardzo wysoka aktywność</item>
+    </string-array>
+</resources>
