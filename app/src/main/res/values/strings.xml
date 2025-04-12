@@ -1,7 +1,4 @@
 <resources>
-    <string name="empty_fields">Proszę wypełnić wszystkie pola.</string>
-    <string name="invalid_input">Wprowadzone dane są nieprawidłowe.</string>
-    <string name="bmi_result">BMI: %.2f (%s)</string>
-    <string name="calorie_result">Dzienne zapotrzebowanie: %.0f kcal</string>
+
     <string name="app_name">App</string>
 </resources>

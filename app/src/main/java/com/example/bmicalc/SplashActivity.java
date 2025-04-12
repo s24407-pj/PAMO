@@ -1,5 +1,6 @@
 package com.example.bmicalc;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,6 +14,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
  * Wyświetla grafikę oraz dolną nawigację przez określony czas,
  * po czym przechodzi do głównej aktywności aplikacji.
  */
+@SuppressLint("CustomSplashScreen")
 public class SplashActivity extends AppCompatActivity {
 
     private BottomNavigationView bottomNavigationView;
