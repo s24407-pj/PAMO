@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "BMICalc"
 include(":app")
- 
+include(":Exercises")
