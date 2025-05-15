@@ -35,17 +35,25 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView.setOnItemSelectedListener(item -> {
             Fragment selectedFragment = null;
             int id = item.getItemId();
+
             if (id == R.id.nav_bmi) {
                 selectedFragment = new BMICalcFragment();
             } else if (id == R.id.nav_calorie) {
                 selectedFragment = new CalorieCalcFragment();
+            } else if (id == R.id.nav_shop) {
+                selectedFragment = new ShoppingListFragment();
+            } else if (id == R.id.nav_graph) {
+                selectedFragment = new BMIGraphFragment();
             }
+
             if (selectedFragment != null) {
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.fragment_container, selectedFragment)
                         .commit();
             }
+
             return true;
         });
+
     }
 }

@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Kalkulator BMI -->
     <item
         android:id="@+id/nav_bmi"
         android:icon="@drawable/ic_bmi"
         android:title="BMI" />
+
+    <!-- Kalkulator Kalorii -->
     <item
         android:id="@+id/nav_calorie"
         android:icon="@drawable/ic_calorie"
         android:title="Kalorie" />
+
+    <!-- Lista Zakupów -->
+    <item
+        android:id="@+id/nav_shop"
+        android:icon="@drawable/ic_shopping"
+        android:title="Zakupy" />
+
+    <!-- Wykres BMI -->
+    <item
+        android:id="@+id/nav_graph"
+        android:icon="@drawable/ic_graph"
+        android:title="Wykres BMI" />
+
 </menu>
